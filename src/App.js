@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import TopMenubar from './components/Includes/TopMenubar';
+import Home from './components/Home';
+import About from './components/About';
+import Footer from './components/Includes/Footer';
+import ResidentialProjects from './components/Projects/ResidentialProjects';
+import CommercialProjects from './components/Projects/CommercialProjects';
+import Gallery from './components/Gallery';
+import Careers from './components/Careers';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <TopMenubar />
+      <Routes>
+        <Route path="/yellow-walls" index element={<Home />} />
+        <Route path="/about" index element={<About />} />
+        <Route path="/projects/residential" index element={<ResidentialProjects />} />
+        <Route path="/projects/commercial" index element={<CommercialProjects />} />
+        <Route path="/gallery" index element={<Gallery />} />
+        <Route path="/careers" index element={<Careers />} />
+        <Route path="/contact" index element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
