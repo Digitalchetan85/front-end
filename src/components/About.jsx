@@ -25,31 +25,27 @@ const About = () => {
             <Col md={8}>
               <div className="">
                 <h2 className="py-2 text-primary">Company Overview</h2>
+                <h3 className="py-2 text-primary">Hello Reader,</h3>
+                <h4 className="py-2 text-primary">
+                  Yellow Walls is an online Real Estate Advisory Firm.
+                </h4>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
-                  Many desktop publishing packages and web page editors now use
-                  Lorem Ipsum as their default model text, and a search for
-                  'lorem ipsum' will uncover many web sites still in their
-                  infancy. Various versions have evolved over the years,
-                  sometimes by accident, sometimes on purpose (injected humour
-                  and the like).
+                  The company visions to serve such property to their customers
+                  which will not only have value today but for next 2 decades.
+                  Our best sales & advisory team guides you to find your desired
+                  home in current atmosphere of rapid development in India, We
+                  specialize in providing specific real estate related local
+                  knowledge to take an intelligent decision for our buyers for
+                  their future investment.
                 </p>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
-                  Many desktop publishing packages and web page editors now use
-                  Lorem Ipsum as their default model text, and a search for
-                  'lorem ipsum' will uncover many web sites still in their
-                  infancy. Various versions have evolved over the years,
-                  sometimes by accident, sometimes on purpose (injected humour
-                  and the like).
+                  We are a young enterprise and have aspiration of becoming a
+                  giant we are bringing extensive online real estate technology
+                  which provides first time home buyers innovative digital
+                  technology to search, buy dreamhomes. It will help us to
+                  identifying specific residential needs of Indian Customer and
+                  Catering to these needs from a pool of Premier Real Estate
+                  Developers throughout India.
                 </p>
               </div>
             </Col>

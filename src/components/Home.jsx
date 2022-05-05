@@ -10,7 +10,11 @@ import Testimonials from "./Includes/Testimonials";
 const Home = () => {
   return (
     <>
-      <div id="baner">
+     <div id="baner">
+        <div className="text-center">
+          <Image src={Banner} alt="Banner" className="img-fluid"></Image>
+        </div>
+      </div>   <div id="baner">
         <div className="text-center">
           <Image src={Banner} alt="Banner" className="img-fluid"></Image>
         </div>
