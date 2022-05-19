@@ -1,6 +1,9 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import AboutBanner from "../images/projects/project-1.png";
+import Sumit from "../images/sumit.png"
+import Sangamesh from "../images/sangamesh.png"
+import Harish from "../images/harish.png"
 
 const About = () => {
   return (
@@ -102,8 +105,55 @@ const About = () => {
           </Row>
         </Container>
       </div>
+
+      <div className="pt-3 pb-3 pt-md-5 pb-md-5">
+        <Container>
+          <Row className="justify-content-center">
+            <h2 className="text-center text-primary">Founders</h2>
+            <Col md={4} className="align-self-center">
+            <div className="text-center">
+            <img
+                          className="img-fluid"
+                          src={Sumit}
+                          alt="Sumit Gupta" 
+                        /> 
+
+            </div>
+            <h4 className="text-center text-primary">Sumit Gupta <br />Founder & CEO </h4>
+            <p className="text-center"><a href="mailto:sg@yellow-walls.com">sg@yellow-walls.com</a></p>      
+            {/* <p>Having a decade experience in all sorts of managing portfolio, he has a vision of making real estate like window shopping with adverse detailing and to pursuit this vision he may do all sort of activities.</p>   
+            <p>He is here to delight each and every individual buyer by being easy and simple</p>                */}
+            </Col>
+            <Col md={4} className="align-self-center">
+            <div className="text-center">
+            <img
+                          className="img-fluid"
+                          src={Sangamesh}
+                          alt="Sangamesh Mathapati" 
+                        /> 
+
+            </div>
+            <h4 className="text-center text-primary">Sangamesh Mathapati <br />Co-Founder & Director</h4>
+            <p className="text-center"><a href="mailto:sangamesh@yellow-walls.com">sangamesh@yellow-walls.com</a></p>   
+            </Col>
+            <Col md={4} className="align-self-center">
+            <div className="text-center">
+            <img
+                          className="img-fluid"
+                          src={Harish}
+                          alt="Harish Ahuja" 
+                        /> 
+
+            </div>
+            <h4 className="text-center text-primary">Harish Ahuja <br />Co-Founder & Director</h4>
+            <p className="text-center"><a href="mailto:sg@yellow-walls.com">harish@yellow-walls.com</a></p>   
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };
+
 
 export default About;
