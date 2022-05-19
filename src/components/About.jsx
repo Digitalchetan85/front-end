@@ -120,7 +120,7 @@ const About = () => {
 
             </div>
             <h4 className="text-center text-primary">Sumit Gupta <br />Founder & CEO </h4>
-            <p className="text-center"><a href="mailto:sg@yellow-walls.com">sg@yellow-walls.com</a></p>      
+            <h5 className="text-center"><a href="mailto:sg@yellow-walls.com" className="text-primary text-decoration-none">sg@yellow-walls.com</a></h5>      
             {/* <p>Having a decade experience in all sorts of managing portfolio, he has a vision of making real estate like window shopping with adverse detailing and to pursuit this vision he may do all sort of activities.</p>   
             <p>He is here to delight each and every individual buyer by being easy and simple</p>                */}
             </Col>
@@ -134,7 +134,7 @@ const About = () => {
 
             </div>
             <h4 className="text-center text-primary">Sangamesh Mathapati <br />Co-Founder & Director</h4>
-            <p className="text-center"><a href="mailto:sangamesh@yellow-walls.com">sangamesh@yellow-walls.com</a></p>   
+            <h5 className="text-center"><a href="mailto:sangamesh@yellow-walls.com" className="text-primary text-decoration-none">sangamesh@yellow-walls.com</a></h5>   
             </Col>
             <Col md={4} className="align-self-center">
             <div className="text-center">
@@ -146,7 +146,7 @@ const About = () => {
 
             </div>
             <h4 className="text-center text-primary">Harish Ahuja <br />Co-Founder & Director</h4>
-            <p className="text-center"><a href="mailto:sg@yellow-walls.com">harish@yellow-walls.com</a></p>   
+            <h5 className="text-center"><a href="mailto:sg@yellow-walls.com" className="text-primary text-decoration-none">harish@yellow-walls.com</a></h5>   
             </Col>
           </Row>
         </Container>

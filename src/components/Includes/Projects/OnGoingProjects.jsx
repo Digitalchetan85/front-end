@@ -13,22 +13,85 @@ const OnGoingProjects = () => {
     {
       id: 1,
       imgurl: img1,
-      alt: "",
+      alt: "Prestige Zindal City",
+      title: "Prestige Zindal City",
     },
     {
       id: 2,
       imgurl: img2,
-      alt: "",
+      alt: "L&T Raintree Boulevard ",
+      title: "L&T Raintree Boulevard",
     },
     {
       id: 3,
       imgurl: img3,
-      alt: "",
+      alt: "Shapoorji Pallonji Park West",
+      title: "Shapoorji Pallonji Park West",
     },
     {
       id: 4,
       imgurl: img3,
-      alt: "",
+      alt: "Prestige Royal Garden",
+      title:"Prestige Royal Garden",
+    },
+    {
+      id: 5,
+      imgurl: img3,
+      alt: "Prestige Willow Tree",
+      title:"Prestige Willow Tree",
+    },
+    
+    {
+      id: 6,
+      imgurl: img2,
+      alt: "Sobha Dream Acres",
+      title:"Sobha Dream Acres",
+    },
+    {
+      id: 7,
+      imgurl: img1,
+      alt: "Prestige Willow Tree",
+      title:"Prestige Willow Tree",
+    },
+    
+    {
+      id: 8,
+      imgurl: img2,
+      alt: "Sobha Dream Acres",
+      title:"Sobha Dream Acres",
+    },
+    {
+      id: 9,
+      imgurl: img3,
+      alt: "Sobha Royal Pavilion",
+      title:"Sobha Royal Pavilion",
+    },
+    
+    {
+      id: 10,
+      imgurl: img1,
+      alt: "Sobha Sentosa",
+      title:"Sobha Sentosa",
+    },
+    
+    {
+      id: 11,
+      imgurl: img2,
+      alt: "Sobha Victoria Park",
+      title:"Sobha Victoria Park",
+    },
+    {
+      id: 12,
+      imgurl: img3,
+      alt: "Brigade Euthopia",
+      title: "Brigade Euthopia",
+          },
+    
+    {
+      id: 13,
+      imgurl: img1,
+      alt: "Brigade Eldorado",
+      title:"Brigade Eldorado",
     },
   ];
 
@@ -67,6 +130,7 @@ const OnGoingProjects = () => {
                       alt={item.alt}
                       className="img-fluid"
                     />
+                    <h6 className="text-center text-white">{item.title}</h6>
                   </div>
                 </Col>
               </Row>
