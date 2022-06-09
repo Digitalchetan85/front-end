@@ -14,11 +14,7 @@ const Home = () => {
         <div className="text-center">
           <Image src={Banner} alt="Banner" className="img-fluid"></Image>
         </div>
-      </div>   <div id="baner">
-        <div className="text-center">
-          <Image src={Banner} alt="Banner" className="img-fluid"></Image>
-        </div>
-      </div>
+      </div>  
 
       <div id="first-section" className="py-3 py-md-4 bg-secondary">
         <Container>
